@@ -55,6 +55,7 @@ const sumSquareAllNums = (nums) => {
         return accumulator + (value ** 2)
     }, 0)
 }
+//console.log(sumSquareAllNums(Array.from({length: 15}, (_, i) => i + 1)))
 
 // BONUS
 const addAllAges = (nums) => {
@@ -64,5 +65,5 @@ const addAllAges = (nums) => {
         return accumulator + value
     })
 }
-const names = [ { name: 'Carl', age: 30 }, { name: 'Cara', age: 10 }, { name: 'Carmen', age: 15 } ]
-addAllAges(names)
+// const names = [ { name: 'Carl', age: 30 }, { name: 'Cara', age: 10 }, { name: 'Carmen', age: 15 } ]
+// addAllAges(names)
